@@ -1,0 +1,10 @@
+{{!If the user is logged in and they are an admin user, and 'GET /admin' endpoint is called, you will render this view
+based on the specs.}}
+
+<p>"Welcome
+  {{admin.firstName}}, the time is now:
+  {{date}}. You get super secret admin access since you are an admin. Remember,
+  with great power comes great responsibility".
+</p>
+<a class="protected-link" href="/protected">Protected</a>
+<a class="logout-link" href="/logout">Log Out</a>
