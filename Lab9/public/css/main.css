@@ -1,0 +1,63 @@
+body{
+    background-color: #3db36b;
+}
+
+.main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: larger;
+}
+
+.divError {
+    font-weight: bold;
+    color: red;
+}
+
+.inputError {
+    border-style: solid 5px;
+    border-color: red;
+}
+
+.labelError {
+    color: red;
+    font-weight: bold;
+}
+
+dt {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+dd{
+    margin-inline-start: 10px;
+}
+
+
+.btn {
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #606060;
+}.btn:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #303030;
+    font-size: larger;
+}
+
+.textArea{
+    height: 50px;
+    width: 300px
+}
+
+a{
+    color: black;
+    text-decoration: underline;
+    font-size: large;
+} a:hover{
+    color: blue;
+    font-size: larger;
+}
