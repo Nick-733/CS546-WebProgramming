@@ -1,0 +1,80 @@
+/*This file should have CSS rulesets */
+
+body{
+    max-width: 100%;
+    background-color: #35a560;
+}
+
+h1{
+    color: #000;
+    font-family: 'Times New Roman', 'serif';
+    border: #000 3px solid;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20%;
+}
+
+h2{
+    color: #000;
+    font-family: 'Times New Roman', 'serif';
+    text-decoration: underline;
+}
+
+li{
+    padding: 10px;
+    border-left: #000 2px solid;
+}
+
+.btn {
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #606060;
+}.btn:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #303030;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+} a:hover{
+    text-decoration: none;
+    color: #3300ff;
+}
+
+.venueImage{
+    width: 350px;
+    height: 200px;
+    border: #000 5px solid;
+}
+
+.box{
+    font-size: 16px;
+    background-color: #fff;
+    border: 2px solid #3300ff;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.paragraph{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 2px 2px #ddd;
+    width: fit-content;
+}
+
+.label{
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;   
+}

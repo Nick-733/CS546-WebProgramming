@@ -1,0 +1,12 @@
+<h1>{{title}}</h1>
+<h2>{{searchVenueTerm}}</h2>
+<main>
+    <ol>
+        {{#each venues}}
+            <li>
+                <a href="/venuedetails/{{id}}">{{name}}</a>
+            </li>
+        {{/each}}
+    </ol>
+    <a href="/" class="btn">Make another search</a>
+</main>
